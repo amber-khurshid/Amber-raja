@@ -3,7 +3,7 @@
 
 - 📝 I regularly write articles on [https://amberraja20.wordpress.com/](https://amberraja20.wordpress.com/)
 
-- 💬 Ask me about **c, c++ programming, flutter, UI/UX**
+- 💬 Ask me about **c, c++ programming, python, SQL**
 
 - 📫Reach me at **amberkhurshidraja@gmail.com**
 
