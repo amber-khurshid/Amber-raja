@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Amber Khurshid</h1>
-- 🌱 I’m currently learning **python**
+- 🌱 I’m currently learning **web development**
 
 - 📝 I regularly write articles on [https://amberraja20.wordpress.com/](https://amberraja20.wordpress.com/)
 
