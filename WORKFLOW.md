@@ -154,20 +154,25 @@
 ## Before vs After
 
 BEFORE:
-❌ Manual kaggle.json setup with !mv command
-❌ Wrong extraction paths
-❌ Hardcoded /kaggle/input paths (Kaggle Kernels specific)
-❌ No verification steps
-❌ 40 cells with many redundant ones
-❌ Confusing task section at the end
+❌ Manual kaggle.json setup with !mv command (assumed file already uploaded)
+❌ Wrong extraction paths (cityscape-dataset.zip not in expected location)
+❌ Hardcoded /kaggle/input paths (Kaggle Kernels specific, not Colab)
+   - IMG_DIR = "/kaggle/input/cityscape-dataset/Cityscape Dataset/leftImg8bit"
+   - MASK_DIR = "/kaggle/input/cityscape-dataset/Fine Annotations/gtFine"
+❌ No verification steps (failures went unnoticed)
+❌ 40 cells with many redundant ones (confusing workflow)
+❌ Confusing task section at the end with duplicate instructions
 
 AFTER:
-✅ Interactive file upload with files.upload()
-✅ Correct extraction to /content/cityscape-dataset
-✅ Colab-compatible paths
-✅ Verification at each step
-✅ 23 streamlined cells
-✅ Clear, linear workflow
+✅ Interactive file upload with files.upload() (guides user through process)
+✅ Correct extraction to /content/cityscape-dataset (Colab standard path)
+✅ Colab-compatible paths with auto-detection
+   - Tries: "/content/cityscape-dataset/leftImg8bit"
+   - Also tries: "/content/cityscape-dataset/Cityscape Dataset/leftImg8bit"
+   - Smart fallback with clear error messages
+✅ Verification at each step (download size, file existence, path validation)
+✅ 23 streamlined cells (clear, linear workflow)
+✅ Clean, single workflow with no duplicates
 
 ═══════════════════════════════════════════════════════════════
 ```
