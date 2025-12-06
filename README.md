@@ -7,6 +7,27 @@
 
 - 📫Reach me at **amberkhurshidraja@gmail.com**
 
+## 📚 Projects
+
+### Cityscape Segmentation with U-Net
+This repository contains a Jupyter notebook for semantic segmentation of cityscape images using a U-Net architecture.
+
+**Notebook:** [22P-9295_Amber_lab10.ipynb](22P-9295_Amber_lab10.ipynb)
+
+#### Features:
+- 🎯 Semantic segmentation using U-Net model
+- 🏙️ Uses the Cityscape dataset from Kaggle
+- 📊 Includes data visualization and model evaluation
+- 🔧 Complete workflow from data loading to prediction
+
+#### How to Use:
+1. Open the notebook in [Google Colab](https://colab.research.google.com/github/amber-khurshid/Amber-raja/blob/main/22P-9295_Amber_lab10.ipynb)
+2. Get your Kaggle API credentials from [kaggle.com/settings/account](https://www.kaggle.com/settings/account)
+3. Follow the instructions in the notebook to upload your `kaggle.json` file
+4. Run all cells in order to train the model
+
+The notebook includes detailed setup instructions and troubleshooting tips.
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://twitter.com/amberkhurshid_" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="amberkhurshid_" height="30" width="40" /></a>
